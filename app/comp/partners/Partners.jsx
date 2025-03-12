@@ -14,7 +14,6 @@ import nissan from "../../images/Nissan.png";
 import porsche from "../../images/Porsche.png";
 import reno from "../../images/Reno.png";
 import rollsRoyce from "../../images/RollsRoyce.png";
-import skoda from "../../images/Skoda.png";
 import suzuki from "../../images/Suzuki.png";
 import toyota from "../../images/Toyota.png";
 import {useEffect, useRef, useState} from "react";
@@ -83,8 +82,8 @@ const partners = [
         id: 134
     },
     {
-        mark: "skoda",
-        logo: skoda,
+        mark: "toyota",
+        logo: toyota,
         id: 135
     },
     {
@@ -142,7 +141,7 @@ const partners = [
                                 alt="no photo"
                                 className={isVisible ? styles.partner_logo_viewed : styles.partner_logo}
                             />
-                            <div className={styles.layer1}></div>
+                            <div></div>
                         </div>
                     ))}
                 </div>
