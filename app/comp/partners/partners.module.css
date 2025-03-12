@@ -1,0 +1,88 @@
+
+.partners_container{
+    background-image: url("../../images/partners.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 24, 24, 0.47);
+}
+.partner_inner_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15vh;
+    padding: 8vh;
+}
+.test{
+    width: 25vh;
+    height: 20vh;
+    margin: 0 auto;
+}
+.partner_logo_viewed{
+    animation: roll 3s ease-in-out;
+    opacity: 0.6;
+    &:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+.partner_logo{
+    opacity: 0;
+    width: 25vh;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+
+.partner_h1{
+    text-align: center;
+    font-size: 4vh;
+    padding: 5vh;
+    background-color: rgba(14, 14, 14, 0.98);
+    box-shadow: 10px 10px 10px #0e0e0e;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 2vh;
+    position: relative;
+    top: -5vh;
+    animation: rollUp 1s ease-in-out;
+}
+.partner_h1_not_visible{
+    opacity: 0;
+    padding: 5vh;
+    background-color: rgba(14, 14, 14, 0.98);
+    box-shadow: 10px 10px 10px #0e0e0e;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 2vh;
+    position: relative;
+    top: -5vh;
+}
+@keyframes rollUp {
+    0% {
+        opacity: 0;
+        position: relative;
+        top: 0;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: -5vh;
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 0.6;
+    }
+}

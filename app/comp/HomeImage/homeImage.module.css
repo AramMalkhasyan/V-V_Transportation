@@ -1,0 +1,17 @@
+
+.image_wrapper {
+    background-image: url("../../images/homePhoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 12/5;
+}
+.slogan_container{
+    width: 75vh;
+    padding-top: 60vh;
+    margin-left: 10vh;
+}
+
+.test{
+    height: 1500px;
+}

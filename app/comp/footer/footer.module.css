@@ -1,0 +1,21 @@
+.footer_container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 4vh;
+    padding: 4vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.9);
+}
+.social_logos{
+    width: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company_name p{
+    font-size: 2vh;
+    color: grey;
+}
