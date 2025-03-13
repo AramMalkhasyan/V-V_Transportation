@@ -10,7 +10,7 @@
     color: #dfdede;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.75);
     box-shadow: 10px 10px 10px #0e0e0e;
     position: relative;
     top: -10vh;

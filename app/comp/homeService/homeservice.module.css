@@ -22,7 +22,7 @@
 
 .service_container {
     width: 50vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.75);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: grey;
     text-align: center;

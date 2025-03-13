@@ -19,7 +19,6 @@
 .image_inner_container{
     width: 5vw;
     height: 15vh;
-    margin: 0 auto;
 }
 .partner_logo_viewed{
     animation: roll 3s ease-in-out;
