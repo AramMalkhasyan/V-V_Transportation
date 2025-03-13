@@ -91,11 +91,7 @@ const partners = [
         logo: suzuki,
         id: 136
     },
-    {
-        mark: "toyota",
-        logo: toyota,
-        id: 137
-    },
+
 ];
 
     const blockRef = useRef(null);
@@ -135,7 +131,7 @@ const partners = [
                 </h1>
                 <div className={styles.partner_inner_container} ref={blockRef}>
                     {partners.map((partner) => (
-                        <div className={styles.test} key={partner.id}>
+                        <div className={styles.image_inner_container} key={partner.id}>
                             <Image
                                 src={partner.logo}
                                 alt="no photo"

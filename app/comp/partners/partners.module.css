@@ -1,7 +1,7 @@
-
 .partners_container{
     background-image: url("../../images/partners.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 .layer{
@@ -14,11 +14,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15vh;
-    padding: 8vh;
+    padding: 8vh 8vw 18vh;
 }
-.test{
-    width: 25vh;
-    height: 20vh;
+.image_inner_container{
+    width: 5vw;
+    height: 15vh;
     margin: 0 auto;
 }
 .partner_logo_viewed{
@@ -31,9 +31,6 @@
 }
 .partner_logo{
     opacity: 0;
-    width: 25vh;
-    height: 20vh;
-    margin: 0 auto;
 }
 
 

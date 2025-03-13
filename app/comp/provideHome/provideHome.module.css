@@ -2,6 +2,7 @@
 .container {
     background-image: url("../../images/provideBackground.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 .home_service_container{
