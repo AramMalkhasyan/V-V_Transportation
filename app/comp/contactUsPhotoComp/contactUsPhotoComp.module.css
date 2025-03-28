@@ -1,0 +1,29 @@
+.container {
+    background-image: url("../../images/HomePhoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 24, 24, 0.60);
+}
+.about_us_head_container{
+    margin: 0 auto;
+    color: white;
+    width: 50vw;
+    text-align: center;
+    padding-top: 40vh;
+}
+.about_us_head_container h1{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.about_us_head_container p{
+    font-size: 1.5vw;
+}
+
+
+

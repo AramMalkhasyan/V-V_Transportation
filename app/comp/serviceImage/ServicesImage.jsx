@@ -14,13 +14,6 @@ export default function ServicesImage() {
                     </div>
                 </div>
             </div>
-            <div
-                className={styles.our_services}
-            >
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
         </>
     );
 }

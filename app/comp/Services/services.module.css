@@ -1,0 +1,64 @@
+.transport_photo{
+    width: 20vw;
+    height: 27vh;
+    /*border-radius: 50%;*/
+}
+.transport_photo_container{
+    align-items: center;
+    text-align: center;
+}
+.transportation_of_cars{
+    width: 25vw;
+    padding: 2vh;
+    background-color: rgba(255, 255, 255, 0.20);
+    /*&:hover {*/
+    /*    animation: rotate360 1s ease-in-out;*/
+    /*    transform: rotatey(180deg);*/
+    /*}*/
+    animation: backk 1s ease-in-out;
+}
+.transportation_of_cars_not_visible {
+    width: 25vw;
+    padding: 2vh;
+    background-color: rgba(255, 255, 255, 0.20);
+    opacity: 0;
+}
+
+/*@keyframes rotate360 {*/
+/*    0% {*/
+/*        transform: rotatey(0);*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotatey(180deg);*/
+/*    }*/
+/*}*/
+@keyframes backk {
+    0% {
+        transform: rotatey(180deg);
+    }
+    100% {
+        transform: rotatey(0);
+        opacity: 1;
+    }
+}
+.transportation_of_car_information_container h1{
+    text-align: center;
+    padding: 2vh;
+    font-size: 2vw;
+}
+.transportation_of_car_information_container p{
+    text-align: center;
+    padding: 2vh;
+    line-height: 3vh;
+    font-size: 3vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../../images/worldMap.png");
+    background-color: #0e0e0e;
+    padding: 12vh 12vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

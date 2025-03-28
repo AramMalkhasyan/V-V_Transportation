@@ -8,16 +8,15 @@
     width: 100%;
     height: 100%;
     padding-bottom: 20vh;
-    background-color: rgba(24, 24, 24, 0.47);
+    background-color: rgba(24, 24, 24, 0.20);
 }
 .feedBack_container{
     width: 150vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: white;
     padding: 5vh;
     display: flex;
-    border-radius: 2vh;
     justify-content: space-around;
     transform: translateX(25%);
     opacity: 1;
@@ -26,12 +25,11 @@
 }
 .feedBack_container_not_visible{
     width: 150vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: white;
     padding: 5vh;
     display: flex;
-    border-radius: 2vh;
     margin-bottom: 4vh;
     justify-content: space-around;
     opacity: 0;
@@ -49,12 +47,11 @@
 }
 .feedBack_container_center{
     width: 150vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: white;
     padding: 5vh;
     display: flex;
-    border-radius: 2vh;
     justify-content: space-around;
     transform: translateX(25%);
     opacity: 1;
@@ -63,12 +60,11 @@
 }
 .feedBack_container_not_visible_center{
     width: 150vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: white;
     padding: 5vh;
     display: flex;
-    border-radius: 2vh;
     justify-content: space-around;
     opacity: 0;
     margin-bottom: 4vh;
@@ -102,12 +98,11 @@
     text-align: center;
     font-size: 4vh;
     padding: 5vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: white;
     width: 90%;
     margin: 0 auto;
-    border-radius: 2vh;
     position: relative;
     top: -5vh;
     animation: rollUp 1s ease-in-out;
@@ -115,12 +110,11 @@
 .feedBack_h1_not_visible{
     opacity: 0;
     padding: 5vh;
-    background-color: rgba(14, 14, 14, 0.98);
+    background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     color: white;
     width: 90%;
     margin: 0 auto;
-    border-radius: 2vh;
     position: relative;
     top: -5vh;
 }

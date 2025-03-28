@@ -1,17 +1,28 @@
 
-.image_wrapper {
-    background-image: url("../../images/homePhoto.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.video{
     width: 100%;
-    aspect-ratio: 12/5;
+    height: 100vh;
+    object-fit: cover;
 }
 .slogan_container{
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
     width: 75vh;
-    padding-top: 60vh;
-    margin-left: 10vh;
+    color: #090808;
 }
 
-.test{
-    height: 1500px;
-}
+/*.image_wrapper {*/
+/*    !*background-image: url("../../images/homePhoto.jpg");*!*/
+/*    !*background-repeat: no-repeat;*!*/
+/*    !*background-size: cover;*!*/
+/*    !*width: 100%;*!*/
+/*    !*aspect-ratio: 12/5;*!*/
+/*}*/
+/*.test{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*}*/
+
+

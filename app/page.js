@@ -11,11 +11,9 @@ export default function Home() {
     <div>
       <HomeImage />
       <ProvideHome />
-      {/*<HomeService />*/}
         <Partners />
         <PartnerFeedBack />
         <MapLocation />
-        <Footer />
     </div>
   );
 }

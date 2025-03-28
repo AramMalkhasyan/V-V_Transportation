@@ -1,7 +1,11 @@
+import AboutUsPhoto from "../comp/AboutUsPhotoComp/AboutUsPhoto";
+import AboutUsContent from "../comp/aboutUsContent/AboutUsContent";
+
 export default function AboutUs() {
     return (
         <div>
-            This is about us page
+            <AboutUsPhoto />
+            <AboutUsContent />
         </div>
     );
 }

@@ -1,0 +1,28 @@
+.container{
+    background-color: black;
+    background-image: url("../../images/aboutContentBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.layer p {
+    font-size: 4vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.layer h1{
+    font-size: 10vh;
+}

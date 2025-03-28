@@ -42,19 +42,9 @@ const partners = [
         id: 126
     },
     {
-        mark: "lada",
-        logo: lada,
-        id: 127
-    },
-    {
         mark: "land rover",
         logo: landRover,
         id: 128
-    },
-    {
-        mark: "mazda",
-        logo: mazda,
-        id: 129
     },
     {
         mark: "mercedes",
@@ -62,19 +52,9 @@ const partners = [
         id: 130
     },
     {
-        mark: "nissan",
-        logo: nissan,
-        id: 131
-    },
-    {
         mark: "porsche",
         logo: porsche,
         id: 132
-    },
-    {
-        mark: "reno",
-        logo: reno,
-        id: 133
     },
     {
         mark: "rolls royce",
