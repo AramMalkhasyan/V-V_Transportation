@@ -1,5 +1,3 @@
-import Image from "next/image";
-import homePhoto from "../../images/homePhoto.jpg";
 import styles from "./homeImage.module.css"
 
 export default function HomeImage() {
