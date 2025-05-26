@@ -1,6 +1,5 @@
-
 .container {
-    background-image: url("../../images/provideBackground.jpg");
+    background-image: url("../../images/partners.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -14,7 +13,7 @@
     background-color: rgba(14, 14, 14, 0.90);
     box-shadow: 10px 10px 10px #0e0e0e;
     position: relative;
-    top: -10vh;
+    top: 1vh;
     left: 2%;
     animation: slideUp 1.5s ease-in-out;
 }
@@ -36,15 +35,9 @@
 @keyframes slideUp {
     from {
         opacity: 0;
-        position: relative;
-        top: 0;
-        left: 2%;
     }
     to {
         opacity: 1;
-        position: relative;
-        top: -10vh;
-        left: 2%;
     }
 }
 .image{
@@ -67,6 +60,30 @@
 .provide_content p {
     font-size: 3vh;
 }
+.show_more_less{
+    display: none;        
+}
 
-
-
+@media (max-width: 500px) {
+    .image{
+        display: none;
+    }
+    .provide_content{
+        text-align: center;
+        align-self: center;
+        width: 100%;
+        padding: 2vh;
+    }
+    .provide_content_inner{
+        display: none;
+    }
+    .provide_content_inner_show{
+        display: block;
+    }
+    .show_more_less{
+        display: block; 
+        color: white;
+        text-decoration: underline;       
+    }
+    
+}

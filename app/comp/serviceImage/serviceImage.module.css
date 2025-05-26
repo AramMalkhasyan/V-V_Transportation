@@ -25,5 +25,15 @@
     font-size: 1.5vw;
 }
 
+@media (max-width: 500px) {
+    .our_services_head_container h1{
+        font-size: 6vw;
+        font-weight: 800;
+    }
+    .our_services_head_container p{
+        font-size: 3vw;
+    }
+}
+
 
 

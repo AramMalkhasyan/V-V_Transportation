@@ -1,16 +1,20 @@
-import styles from "./contactUsPhotoComp.module.css"
+import styles from "./contactUsPhotoComp.module.css";
+import { useTranslations } from "next-intl";
 
 
 export default function ContactUsPhoto() {
+    const t = useTranslations("Contactuspage")
     return (
         <>
             <div className={styles.container}>
                 <div className={styles.layer}>
                     <div className={styles.about_us_head_container}>
                         <h1>
-                            Contact Us
+                            {t("contactUs")}
                         </h1>
-                        <p>Get Intouch</p>
+                        <p>
+                            {t("contactUsSlogan")}    
+                        </p>
                     </div>
                 </div>
             </div>

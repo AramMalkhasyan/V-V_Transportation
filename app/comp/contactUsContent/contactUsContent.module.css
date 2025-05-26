@@ -1,0 +1,30 @@
+.contact_us_content_container{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_us_Phone{
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .icon {
+        width: 19vw;
+        height: fit-content;
+    }
+    .contact_us_content_container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .contact_us_Phone{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 3vh 5vw;
+    }
+}

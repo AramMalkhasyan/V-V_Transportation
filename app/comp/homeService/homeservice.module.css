@@ -32,3 +32,36 @@
     padding: 3vh 0;
     color: white;
 }
+.show_more_less{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .home_service_container{
+        display: flex;
+        justify-content: space-around;
+        padding: 10vh 5vw;
+        animation: move 1.5s ease-in-out;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .service_container {
+        width: 90vw;
+        background-color: rgba(14, 14, 14, 0.90);
+        box-shadow: 10px 10px 10px #0e0e0e;
+        color: grey;
+        text-align: center;
+        padding: 5vh;
+    }
+    .services_inner_fast{
+        display: none;
+    }
+    .services_inner_fast_view{
+        display: block;
+    }
+    .show_more_less{
+        display: block;
+        color: white;
+        text-decoration: underline;
+    }
+}

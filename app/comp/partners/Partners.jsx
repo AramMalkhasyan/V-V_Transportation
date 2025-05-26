@@ -2,28 +2,24 @@
 
 import styles from './partners.module.css';
 import Image from "next/image";
-import audi from "../../images/Audi.png";
+import zeekr from "../../images/Zeekr5.png";
 import bmw from "../../images/Bmw.png";
-import kia from "../../images/Kia.png";
-import ford from "../../images/Ford.png";
-import lada from "../../images/Lada.png";
-import landRover from "../../images/LandRover.png";
-import mazda from "../../images/Mazda.png";
+import byd from "../../images/BYD.png";
+import lixiang from "../../images/lixiang.jpeg";
+import landRover from "../../images/LandRover2.png";
 import mercedes from "../../images/Mercedes.png";
-import nissan from "../../images/Nissan.png";
 import porsche from "../../images/Porsche.png";
-import reno from "../../images/Reno.png";
 import rollsRoyce from "../../images/RollsRoyce.png";
-import suzuki from "../../images/Suzuki.png";
-import toyota from "../../images/Toyota.png";
+import geely from "../../images/Geely.png";
+import hongqi from "../../images/Hongqi.png";
 import {useEffect, useRef, useState} from "react";
-
+import { useTranslations } from 'next-intl';
 
 export default function Partners() {
 const partners = [
     {
-        mark: "audi",
-        logo: audi,
+        mark: "zeekr",
+        logo: zeekr,
         id: 123
     },
     {
@@ -32,13 +28,13 @@ const partners = [
         id: 124
     },
     {
-        mark: "kia",
-        logo: kia,
+        mark: "byd",
+        logo: byd,
         id: 125
     },
     {
-        mark: "ford",
-        logo: ford,
+        mark: "lixiang",
+        logo: lixiang,
         id: 126
     },
     {
@@ -62,13 +58,13 @@ const partners = [
         id: 134
     },
     {
-        mark: "toyota",
-        logo: toyota,
+        mark: "hongqi",
+        logo: hongqi,
         id: 135
     },
     {
-        mark: "suzuki",
-        logo: suzuki,
+        mark: "geely",
+        logo: geely,
         id: 136
     },
 
@@ -76,6 +72,7 @@ const partners = [
 
     const blockRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const t = useTranslations("Homepage")
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
@@ -107,7 +104,7 @@ const partners = [
                     className={isVisible ? styles.partner_h1 : styles.partner_h1_not_visible}
                     ref={blockRef}
                 >
-                    OUR PARTNERS
+                    {t("ourPartners")}
                 </h1>
                 <div className={styles.partner_inner_container} ref={blockRef}>
                     {partners.map((partner) => (
@@ -116,6 +113,7 @@ const partners = [
                                 src={partner.logo}
                                 alt="no photo"
                                 className={isVisible ? styles.partner_logo_viewed : styles.partner_logo}
+                                
                             />
                             <div></div>
                         </div>

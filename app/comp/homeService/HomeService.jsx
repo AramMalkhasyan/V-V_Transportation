@@ -1,16 +1,23 @@
 'use client'
 
+import { useRef, useEffect, useState} from 'react';
 import styles from './homeservice.module.css';
 import clockIcon from '../../icons/clock.png';
 import deliveryIcon from '../../icons/delivery.png';
 import supportIcon from '../../icons/support.png';
 import Image from "next/image";
-import { useRef, useEffect, useState} from 'react';
+import { useTranslations } from 'next-intl';
+
 
 
 export default function HomeService() {
     const blockRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const [fastIsVisible, setFastIsVisible] = useState(false);
+    const [safeIsVisible, setSafeIsVisible] = useState(false);
+    const [supportIsVisible, setSupportIsVisible] = useState(false);
+
+    const t = useTranslations("Homepage");
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
@@ -45,13 +52,26 @@ export default function HomeService() {
                     alt="no Photo"
                 />
                 <h2>
-                    Fast Service
+                    {t("HomeServiceFast")}
                 </h2>
-                <p>
-                    A wonderful serenity has taken possession of my entire soul,
-                    like these sweet mornings of spring
-                    which I enjoy with my whole heart.
+                <p className={fastIsVisible ? styles.services_inner_fast_view : styles.services_inner_fast}>
+                    {t("HomeServiceFastContent")}
                 </p>
+                {fastIsVisible ? 
+                    <a 
+                        onClick={() => setFastIsVisible(false)}
+                        className={styles.show_more_less}
+                    >
+                        show less
+                    </a>
+                    :
+                    <a 
+                        onClick={() => setFastIsVisible(true)}
+                        className={styles.show_more_less}
+                    >
+                        show more
+                    </a>
+                }
             </div>
             <div className={styles.service_container}>
                 <Image
@@ -59,13 +79,26 @@ export default function HomeService() {
                     alt="no Photo"
                 />
                 <h2>
-                    Safe Delivery
+                    {t("HomeServiceSafe")}
                 </h2>
-                <p>
-                    A wonderful serenity has taken possession of my entire soul,
-                    like these sweet mornings of spring which
-                    I enjoy with my whole heart.
+                <p className={safeIsVisible ? styles.services_inner_fast_view : styles.services_inner_fast}>
+                    {t("HomeServiceSafeContent")}
                 </p>
+                {safeIsVisible ? 
+                    <a 
+                        onClick={() => setSafeIsVisible(false)}
+                        className={styles.show_more_less}
+                    >
+                        show less
+                    </a>
+                    :
+                    <a 
+                        onClick={() => setSafeIsVisible(true)}
+                        className={styles.show_more_less}
+                    >
+                        show more
+                    </a>
+                }
             </div>
             <div className={styles.service_container}>
                 <Image
@@ -73,13 +106,26 @@ export default function HomeService() {
                     alt="no Photo"
                 />
                 <h2>
-                    24/7 Support
+                    {t("HomeServiceSupport")}
                 </h2>
-                <p>
-                    A wonderful serenity has taken possession of my entire soul,
-                    like these sweet mornings of spring
-                    which I enjoy with my whole heart.
+                <p className={supportIsVisible ? styles.services_inner_fast_view : styles.services_inner_fast}>
+                    {t("HomeServiceSupportContent")}
                 </p>
+                {supportIsVisible ? 
+                    <a 
+                        onClick={() => setSupportIsVisible(false)}
+                        className={styles.show_more_less}
+                    >
+                        show less
+                    </a>
+                    :
+                    <a 
+                        onClick={() => setSupportIsVisible(true)}
+                        className={styles.show_more_less}
+                    >
+                        show more
+                    </a>
+                }
             </div>
         </div>
     );

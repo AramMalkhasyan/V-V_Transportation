@@ -11,9 +11,15 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.8",
     "@studio-freight/lenis": "^1.0.42",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "next": "15.1.7",
+    "next-intl": "^4.0.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
+    "react-select": "^5.10.1",
+    "react-world-flags": "^1.6.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -4,11 +4,15 @@
 import {useEffect, useRef, useState} from "react";
 import {Loader} from "@googlemaps/js-api-loader";
 import styles from "./mapLocation.module.css";
+import { useTranslations } from 'next-intl';
+
 
 export default function MapLocation() {
     const mapRef = useRef(null);
     const blockRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    
+    const t = useTranslations("Homepage");
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -43,8 +47,8 @@ export default function MapLocation() {
             const {Marker} = await loader.importLibrary("marker")
 
             const position = {
-                lat: 43.642693,
-                lng: -79.3871189
+                lat: 40.135893,
+                lng: 44.490942
             };
             const darkModeStyle = [
                 { elementType: "geometry", stylers: [{ color: "#212121" }] },
@@ -128,14 +132,23 @@ export default function MapLocation() {
                 className={isVisible ? styles.our_office_header : styles.our_office_header_not_visible}
                 ref={blockRef}
             >
-                OUR OFFICE
+                {t("ourOffice")}
+                <p>
+                    {t("addressContent")}
+                </p>
+                <p>
+                    info@vvtrans.am
+                </p>
+                <p>
+                    (+374) 11 79-97-77
+                </p>
             </h1>
             <div className={styles.map_container}>
                 <div ref={mapRef} className={styles.map}/>
                 <div className={styles.office_info}>
-                    <p><span>Address:</span> Pushkin st. 5 lane ap 25</p>
-                    <p><span>Email:</span> testemail@gmail.com</p>
-                    <p><span>Phone:</span> +37455999999</p>
+                    <p><span>{t("address")}</span>{t("addressContent")}</p>
+                    <p><span>{t("email")}</span> info@vvtrans.am</p>
+                    <p><span>{t("phone")}</span> +37411799777</p>
                 </div>
             </div>
         </div>

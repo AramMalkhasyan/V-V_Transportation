@@ -1,16 +1,20 @@
 import styles from "./serviceImage.module.css"
+import { useTranslations } from 'next-intl';
 
 
 export default function ServicesImage() {
+    const t = useTranslations("Servicespage");
     return (
         <>
             <div className={styles.container}>
                 <div className={styles.layer}>
                     <div className={styles.our_services_head_container}>
                         <h1>
-                            OUR SERVICES
+                            {t("ourServices")}
                         </h1>
-                        <p>V&V handles your parcel delivery with the professionalism</p>
+                        <p>
+                            {t("servicesSlogan")}
+                        </p>
                     </div>
                 </div>
             </div>

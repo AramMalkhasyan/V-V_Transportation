@@ -70,3 +70,43 @@
         top: -5vh;
     }
 }
+
+
+@media (max-width: 500px) {
+    .map{
+        width: 90vw;
+        height: 20vh;
+        border: solid 3px rgba(0, 0, 0, 0.53);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+    }
+    .office_info{
+        display: none;
+    }
+    .our_office_header{
+        text-align: center;
+        font-size: 4vh;
+        padding: 1vh 5vh;
+        background-color: rgba(14, 14, 14, 0.90);
+        box-shadow: 10px 10px 10px #0e0e0e;
+        color: white;
+        width: 90%;
+        margin: 0 auto 10vh;
+        position: relative;
+        top: 1vh;
+        animation: rollUp 1s ease-in-out;
+    }
+    .our_office_header_not_visible{
+        text-align: center;
+        font-size: 4vh;
+        padding: 5vh;
+        background-color: rgba(14, 14, 14, 0.90);
+        box-shadow: 10px 10px 10px #0e0e0e;
+        color: white;
+        width: 90%;
+        margin: 0 auto 10vh;
+        opacity: 0;
+    }
+    .our_office_header p{
+        font-size: 20px;
+    }
+}

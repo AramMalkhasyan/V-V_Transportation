@@ -4,10 +4,12 @@ import styles from './partnerFeedBack.module.css'
 import landRoverLogo from '../../images/LandRover.png'
 import Image from "next/image";
 import {useEffect, useRef, useState} from "react";
+import { useTranslations } from 'next-intl';
 
 export default function PartnerFeedBack() {
     const blockRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const t = useTranslations("Homepage");
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -34,7 +36,9 @@ export default function PartnerFeedBack() {
     return (
         <div ref={blockRef} className={styles.container}>
             <div className={styles.layer}>
-            <h1 className={isVisible ? styles.feedBack_h1 : styles.feedBack_h1_not_visible} ref={blockRef}>FEED BACK FROM OUR PARTNERS</h1>
+            <h1 className={isVisible ? styles.feedBack_h1 : styles.feedBack_h1_not_visible} ref={blockRef}>
+                {t("partnerFeedBack")}
+            </h1>
             <div
                 className={isVisible ? styles.feedBack_container : styles.feedBack_container_not_visible}
             >

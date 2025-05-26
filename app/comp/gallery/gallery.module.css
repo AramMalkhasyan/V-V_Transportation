@@ -1,0 +1,74 @@
+.embla {
+  overflow: hidden;
+  padding: 20px;
+}
+  
+.embla_container {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  
+}
+
+.embla_slide {
+  position: relative;
+  flex: 0 0 70%; /* Adjust slide width */
+  height: 90vh;
+  overflow: hidden;
+  background-color: #eee; /* fallback bg */
+  scroll-snap-align: start;
+  box-shadow: 10px 10px 10px #0e0e0e;
+}
+.image{
+  filter: blur(0px);
+}
+.image_blur{
+  filter: blur(4px);
+}
+  
+.controll_buttons{
+  width: 5vw;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 2vh;
+}
+.controll_buttons button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 3vh;
+  width: 15vw;
+}
+.controll_buttons div {
+  font-size: 3vh;
+}
+.test {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+@media (max-width: 500px) {
+  .embla_slide {
+    position: relative;
+    flex: 0 0 100vw; /* Adjust slide width */
+    height: 30vh;
+    overflow: hidden;
+    background-color: #eee; /* fallback bg */
+    scroll-snap-align: start;
+    box-shadow: 10px 10px 10px #0e0e0e;
+  }
+  .test {
+    display: none;
+  }
+  .image_blur{
+    filter: blur(0);
+  }
+  .image{
+    filter: blur(0);
+    height: fit-content;
+  }
+}

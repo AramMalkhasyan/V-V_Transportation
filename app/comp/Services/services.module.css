@@ -1,7 +1,6 @@
 .transport_photo{
     width: 20vw;
     height: 27vh;
-    /*border-radius: 50%;*/
 }
 .transport_photo_container{
     align-items: center;
@@ -10,12 +9,8 @@
 .transportation_of_cars{
     width: 25vw;
     padding: 2vh;
-    background-color: rgba(255, 255, 255, 0.20);
-    /*&:hover {*/
-    /*    animation: rotate360 1s ease-in-out;*/
-    /*    transform: rotatey(180deg);*/
-    /*}*/
-    animation: backk 1s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.75);
+    animation: backk 2s ease-in-out;
 }
 .transportation_of_cars_not_visible {
     width: 25vw;
@@ -24,14 +19,6 @@
     opacity: 0;
 }
 
-/*@keyframes rotate360 {*/
-/*    0% {*/
-/*        transform: rotatey(0);*/
-/*    }*/
-/*    100% {*/
-/*        transform: rotatey(180deg);*/
-/*    }*/
-/*}*/
 @keyframes backk {
     0% {
         transform: rotatey(180deg);
@@ -56,9 +43,60 @@
 .container{
     display: flex;
     justify-content: space-around;
-    background-image: url("../../images/worldMap.png");
-    background-color: #0e0e0e;
+    background-image: url("../../images/worldMap.jpg");
     padding: 12vh 12vw;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.show_more_less{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background-image: url("../../images/worldMap.jpg");
+        padding: 12vh 12vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .transportation_of_cars{
+        width: 80vw;
+        padding: 2vh;
+        background-color: rgba(255, 255, 255, 0.50);
+        animation: backk 2s ease-in-out;
+        text-align: center;
+    }
+    .transportation_of_cars_not_visible {
+        width: 80vw;
+        padding: 2vh;
+        background-color: rgba(255, 255, 255, 0.20);
+        opacity: 0;
+    }
+    .transport_photo{
+        width: 70vw;
+        height: 20vh;
+    }
+    .transportation_of_car_information_container h1{
+        text-align: center;
+        padding: 2vh;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    .transport_content {
+        text-align: center;
+        padding: 2vh;
+        line-height: 3vh;
+        font-size: 2.5vh;
+    }
+    .transport_content_hide{
+        display: none;
+    }
+    .show_more_less{
+        display: block;
+        color: grey;
+        text-decoration: underline;
+    }
 }

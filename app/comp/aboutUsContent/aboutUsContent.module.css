@@ -10,12 +10,12 @@
 .layer{
     width: 100%;
     height: 100%;
-
     padding: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10vh;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .layer p {
@@ -25,4 +25,26 @@
 }
 .layer h1{
     font-size: 10vh;
+}
+
+@media (max-width: 500px) {
+    .layer{
+        width: 100%;
+        height: 100%;
+        padding: 1vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10vh;
+    }
+    .layer h1{
+        font-size: 5vh;
+    }
+    .layer p {
+        font-size: 5vw;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
 }

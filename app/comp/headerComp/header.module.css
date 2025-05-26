@@ -1,17 +1,5 @@
-.social{
-    width: 100%;
-    background-color: rgba(60, 60, 60);
-    display: flex;
-    justify-content: space-between;
-    padding: 0 4vh;
-}
-.social_network{
-    margin: 1vh;
-    cursor: pointer;
-}
-.since p{
-  color: grey;
-}
+
+
 .container{
     position: fixed;
     top: 0;
@@ -44,7 +32,6 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    /*border-bottom: 1px solid rgba(83,104,114, 0.6);*/
 }
 .links{
     font-size: 3.5vh;
@@ -53,7 +40,6 @@
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    text-underline: none;
     align-self: center;
 }
 .menu_item{
@@ -74,6 +60,85 @@
     }
 }
 
-.test{
-    color: grey;
+.set_locale_selector{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 3vh;
+}
+.set_locale_selector option {
+    background-color: black;
+}
+.links_hide{
+    font-size: 3.5vh;
+    font-weight: 500;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-self: center;
+    flex-direction: column;
+    display: none;
+}
+.menu_hide{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .links{
+        font-size: 3.5vh;
+        font-weight: 500;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        align-self: center;
+        flex-direction: column;
+    }
+    .links_hide{
+        font-size: 3.5vh;
+        font-weight: 500;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        align-self: center;
+        flex-direction: column;
+        display: none;
+    }
+    .container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.8);
+    }
+    .container_not_fixed{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.8);
+    }    
+    .menu{
+        position: absolute;
+        top: 2vh;
+        right: 2vw;
+    }
+
+    .set_locale_selector{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        font-size: 3vh;
+        width: 68px;
+        margin-left: 13px;
+    }
+    .set_locale_selector option {
+        background-color: black;
+        width: 68px;
+        font-size: 10px;
+    }
 }

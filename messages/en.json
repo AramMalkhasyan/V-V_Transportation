@@ -1,0 +1,50 @@
+{
+  "Homepage": {
+    "slogan": " V & V Trans LLC – Trusted International Vehicle Transportation",
+    "headerHome": "Home",
+    "headerServices": "Services",
+    "headerAboutUs": "About Us",
+    "headerContactUs": "Contact Us",
+    "headerGallery": "Gallery",
+    "provideHome": "We Provide Service Across The World",
+    "provideHomeContent": "Whether it’s Armenia to the CIS, Europe, China, the UAE, or back again — we provide reliable vehicle transportation across major trade routes. Wherever you are, wherever your vehicle needs to go — we’ll get it there. Our extensive international network means your shipment is always within reach.",
+    "HomeServiceFast": "Fast Delivery",
+    "HomeServiceFastContent": "Your time matters. That’s why we offer efficient delivery solutions tailored to your schedule. Sign the contract online, provide pickup and delivery addresses — and we’ll take care of the rest. No stress. No wasted time. Just a smooth and timely delivery.",
+    "HomeServiceSafe": " Safe Delivery",
+    "HomeServiceSafeContent": "Every vehicle transported with us is protected by Class A cargo insurance based on the vehicle’s invoice value. That means: Full coverage Protection from major transit risks Maximum peace of mind from pickup to drop-off Your car is valuable — and we treat it like it’s our own.",
+    "HomeServiceSupport": "24/7 Support",
+    "HomeServiceSupportContent": "Questions? Concerns? Just need an update on your delivery status? Our team is always ready to help. We offer round-the-clock communication, so you’re never left in the dark. From the moment you contact us to final delivery — we’re by your side.",
+    "ourPartners": "Our Partners",
+    "partnerFeedBack": "Feed Back From Our Partners",
+    "ourOffice": "Our Office",
+    "address": "Address:",
+    "addressContent": "Arshakunyats ave 119",
+    "email": "Email:",
+    "phone": "Tel.:" ,
+    "ContactUsPhoneText": "We're always happy to hear from you, give us a call!",
+    "ContactUsEmailText": "Have a question or want to work with us? Send us an email, we'll get back to you shortly.",
+    "ContactUsLocationText": "You're welcome to visit us at our office, we'd love to see you." 
+  },
+  "Servicespage": {
+    "ourServices": "OUR SERVICES",
+    "servicesSlogan": "V&V handles your parcel delivery with the professionalism",
+    "carTrasportation": "Transportation of Cars",
+    "carTrasportationContent": "We handle the shipment of all vehicle types with utmost professionalism: Passenger cars SUVs Motorcycles Commercial & cargo vehicles Every vehicle is transported using specialized equipment operated by trained and experienced drivers, ensuring your asset is treated with the care it deserves — from point A to point B.",
+    "carWarehouse": " Warehouse for Cars",
+    "carWarehouseContent": "Need time before or after delivery? No problem We offer secure vehicle storage at our own warehouses in: Yerevan Moscow Dubai You can store your car short-term before consolidation or shipment — giving you more flexibility and peace of mind throughout the logistics process. ",
+    "customs": "Customs Support",
+    "customsContent": "Customs clearance can be complicated — but not with us. Our team handles all documentation, customs formalities, and border processes on your behalf. You don’t need to stand in lines or struggle with paperwork — we’ll make sure everything is processed quickly, correctly, and without delays."
+  },
+  "Aboutuspage": {
+    "aboutUs": "ABOUT US",
+    "aboutUsSlogan": "Our Story",
+    "aboutUsContent": "V & V Trans has been successfully operating in the international vehicle transportation market since 2012. We specialize in transporting all types of vehicles from Armenia to countries across the CIS, Europe, Asia, and the Middle East — and back. From day one, our priority has been reliability, safety, and a professional approach. With years of experience and our own vehicle fleet, we provide a high standard of service that meets the expectations of even the most demanding clients. Over the past decade, we have become a trusted logistics partner for thousands of clients — including private individuals, car dealerships, and corporate customers who value precision, transparency, and personalized solutions. \n V & V Trans is more than just shipping a vehicle — it’s about confidence in results and trust built over time."
+  }, 
+  "Contactuspage": {
+    "contactUs": "CONTACT US",
+    "contactUsSlogan": "Get Intouch"
+  },
+  "Gallery": {
+    "gallery": "GALLERY"
+  }
+}

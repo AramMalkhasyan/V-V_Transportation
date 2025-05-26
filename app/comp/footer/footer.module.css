@@ -19,3 +19,13 @@
     font-size: 2vh;
     color: grey;
 }
+
+@media (max-width: 500px) {
+    .company_name p{
+        font-size: 1.4vh;
+        color: grey;
+    }
+    .company_name {
+        font-size: 20px;
+    }
+}
