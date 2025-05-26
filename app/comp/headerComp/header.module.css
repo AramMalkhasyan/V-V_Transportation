@@ -31,7 +31,7 @@
 .header_container{
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 0 30px;
 }
 .links{
     font-size: 3.5vh;
