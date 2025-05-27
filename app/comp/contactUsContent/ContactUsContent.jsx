@@ -16,18 +16,18 @@ export default function ContactUsContent() {
                     <p>
                         {t("ContactUsPhoneText")}
                     </p>
-                    <p>
+                    <a href='tel: +37411799777'>
                         (+374) 11 79-97-77
-                    </p>
+                    </a>
                 </div>
                 <div className={styles.contact_us_Phone}>
                     <Image src={emailIcon} alt="" className={styles.icon}/>
                     <p>
                         {t("ContactUsEmailText")}
                     </p>
-                    <p>
+                    <a href='mailto: info@vvtrans.am'>
                         info@vvtrans.am
-                    </p>
+                    </a>
                 </div>
                 <div className={styles.contact_us_Phone}>
                     <Image src={locationIcon} alt="" className={styles.icon}/>

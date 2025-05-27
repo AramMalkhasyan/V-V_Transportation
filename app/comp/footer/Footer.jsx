@@ -28,12 +28,16 @@ export default function Footer() {
                         alt="no photo"
                     />
                 </Link>
-                
+                 <Link 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
                     <Image
                         src={ViberLogo}
                         alt="no photo"
                     />
-              
+              </Link>
                 <Link 
                     href="https://www.instagram.com/vvtrans_armenia?igsh=aWxmeGVudG8xcHRk&utm_source=qr"
                     target="_blank" 
