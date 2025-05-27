@@ -79,29 +79,29 @@
 
 
 @media only screen and (max-width: 500px) {
-    .partner_logo_viewed{
+    .partner_logo_viewed {
         max-width: 30vw;
         max-height: fit-content;
         animation: roll 3s ease-in-out;
         opacity: 1;
     }
-    .partner_logo{
+    .partner_logo {
         opacity: 0;
         max-width: 30vw;
         max-height: fit-content;
+        animation: none; /* Prevent animation from overriding opacity */
     }
     
-    .partner_logo{
-        opacity: 0;
-    }
-    .partner_inner_container{
+    .partner_inner_container {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        gap: 100px;
-        padding: 0px 40px;
+        justify-content: center; /* Center align items */
+        gap: 20px; /* Reduce gap for mobile */
+        padding: 0 20px; /* Adjust padding for mobile */
     }
-    .image_inner_container{
-        width: 30%;
+    .image_inner_container {
+        width: 100%; /* Full width for mobile */
+        max-width: 200px; /* Example maximum width */
     }
 }
