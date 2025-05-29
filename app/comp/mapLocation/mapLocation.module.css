@@ -93,7 +93,7 @@
         margin: 0 auto 10vh;
         position: relative;
         top: 1vh;
-        animation: rollUp 1s ease-in-out;
+        animation: none;
     }
     .our_office_header_not_visible{
         text-align: center;
