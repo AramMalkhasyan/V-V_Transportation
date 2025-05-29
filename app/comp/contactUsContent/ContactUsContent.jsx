@@ -40,9 +40,13 @@ export default function ContactUsContent() {
                     <p>
                         {t("ContactUsLocationText")}
                     </p>
-                    <p>
+                    <a 
+                        href="https://yandex.com/maps/?pt=44.490942,40.135893&z=17&l=map" 
+                        target="_blank"
+                        className={styles.link}
+                    >
                         {t("addressContent")}
-                    </p>
+                    </a>
                 </div>
             </div>
         </>

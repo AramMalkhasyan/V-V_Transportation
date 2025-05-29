@@ -133,9 +133,15 @@ export default function MapLocation() {
                 ref={blockRef}
             >
                 {t("ourOffice")}
-                <p>
+                < br/>
+                <a 
+                    href="https://yandex.com/maps/?pt=44.490942,40.135893&z=17&l=map" 
+                    target="_blank"
+                    className={styles.link}
+                >
                     {t("addressContent")}
-                </p>
+                </a>
+                < br/>
                 <a 
                     href='mailto: info@vvtrans.am' 
                     className={styles.link}
