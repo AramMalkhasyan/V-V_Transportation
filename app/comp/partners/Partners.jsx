@@ -23,23 +23,23 @@ const partners = [
         id: 123
     },
     {
-        mark: "bmw",
-        logo: bmw,
+        mark: "byd",
+        logo: byd,
         id: 124
     },
     {
-        mark: "byd",
-        logo: byd,
+        mark: "hongqi",
+        logo: hongqi,
         id: 125
+    },
+    {
+        mark: "geely",
+        logo: geely,
+        id: 126
     },
     {
         mark: "lixiang",
         logo: lixiang,
-        id: 126
-    },
-    {
-        mark: "land rover",
-        logo: landRover,
         id: 128
     },
     {
@@ -53,18 +53,18 @@ const partners = [
         id: 132
     },
     {
-        mark: "rolls royce",
-        logo: rollsRoyce,
+        mark: "land rover",
+        logo: landRover,
         id: 134
     },
     {
-        mark: "hongqi",
-        logo: hongqi,
+        mark: "bmw",
+        logo: bmw,
         id: 135
     },
     {
-        mark: "geely",
-        logo: geely,
+        mark: "rolls royce",
+        logo: rollsRoyce,
         id: 136
     },
 

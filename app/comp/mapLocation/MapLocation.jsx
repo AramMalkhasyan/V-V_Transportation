@@ -136,12 +136,19 @@ export default function MapLocation() {
                 <p>
                     {t("addressContent")}
                 </p>
-                <p>
+                <a 
+                    href='mailto: info@vvtrans.am' 
+                    className={styles.link}
+                >
                     info@vvtrans.am
-                </p>
-                <p>
+                </a>
+                < br/>
+                <a 
+                    href='tel: +37411799777' 
+                    className={styles.link}
+                >
                     (+374) 11 79-97-77
-                </p>
+                </a>
             </h1>
             <div className={styles.map_container}>
                 <div ref={mapRef} className={styles.map}/>

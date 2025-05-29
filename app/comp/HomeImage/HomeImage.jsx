@@ -16,4 +16,3 @@ export default function HomeImage() {
     );
 }
 
-//Guaranteed by more than a hundred awards

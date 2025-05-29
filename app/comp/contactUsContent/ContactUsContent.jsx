@@ -16,7 +16,10 @@ export default function ContactUsContent() {
                     <p>
                         {t("ContactUsPhoneText")}
                     </p>
-                    <a href='tel: +37411799777'>
+                    <a 
+                        href='tel: +37411799777'
+                        className={styles.link}
+                    >
                         (+374) 11 79-97-77
                     </a>
                 </div>
@@ -25,7 +28,10 @@ export default function ContactUsContent() {
                     <p>
                         {t("ContactUsEmailText")}
                     </p>
-                    <a href='mailto: info@vvtrans.am'>
+                    <a 
+                        href='mailto: info@vvtrans.am'
+                        className={styles.link}
+                    >
                         info@vvtrans.am
                     </a>
                 </div>

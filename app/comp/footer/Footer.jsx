@@ -15,7 +15,7 @@ export default function Footer() {
         <div className={styles.footer_container}>
             <div className={styles.company_name}>
                V&V TRANS
-                <p>&copy; 2025 "V&V transportation" LLC</p>
+                <p>&copy; 2025 "V&V trans" LLC</p>
             </div>
             <div className={styles.social_logos}>
                 <Link 
